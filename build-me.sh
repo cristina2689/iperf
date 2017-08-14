@@ -24,4 +24,4 @@ echo $LDFLAGS
 # ./configure --host=arm-none-linux-androideabi -prefix=/home/cristina/iij/android-ndk-r15b/apps/iperf/iperf-bin/ --with-sysroot=/home/cristina/iij/android-ndk-r15b/tmp-toolchain/sysroot && 
 
 
-#make CFLAGS=-static CXXFLAGS=-static
+make CFLAGS=-static CXXFLAGS=-static
